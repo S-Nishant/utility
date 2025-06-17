@@ -1,0 +1,45 @@
+{
+  "name": "condo_portal_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001 --turbo",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@neshca/cache-handler": "^1.5.1",
+    "@turf/turf": "^7.0.0",
+    "@types/geojson": "^7946.0.14",
+    "@types/pako": "^2.0.3",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.2",
+    "chart.js": "^4.4.2",
+    "chartjs-plugin-annotation": "^3.0.1",
+    "chartjs-plugin-crosshair": "^2.0.0",
+    "csv-parse": "^5.6.0",
+    "fast-xml-parser": "^5.2.2",
+    "generic-pool": "^3.9.0",
+    "mapbox-gl": "^3.3.0",
+    "next": "14.1.1",
+    "pako": "^2.1.0",
+    "pg": "^8.11.5",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/chartjs-plugin-crosshair": "^1.1.4",
+    "@types/mapbox-gl": "^3.1.0",
+    "@types/node": "20.16.5",
+    "@types/pg": "^8.11.6",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.6.2"
+  }
+}
